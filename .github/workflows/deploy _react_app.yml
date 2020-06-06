@@ -39,6 +39,6 @@ jobs:
       run: npm install -g surge
     
     - name: deploy raect app using surge
-      run: surge ./ bootcamp2020class002.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build bootcamp2020class002.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
     
